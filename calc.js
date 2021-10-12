@@ -18,20 +18,49 @@ reader.question("What would you like to calculate?", function(input){
 
 	// This line closes the connection to the command line interface.
 	reader.close()
-	let solution;
 
-	if (mathSymbol === '+') {
-		solution = num1 + num2 
-	} else if (mathSymbol === '-') {
-		solution = num1 - num2
-	} else if (mathSymbol === '*') {
-		solution = num1 * num2
-	} else if (mathSymbol === '/') {
-		solution = num1 / num2
-	} else if (mathSymbol === '√') {
-		solution = Math.sqrt(num1)
-	}
+	//SOLUTION 1 --------------
+	// let solution;
+	// if (mathSymbol === '+') {
+	// 	solution = num1 + num2 
+	// } else if (mathSymbol === '-') {
+	// 	solution = num1 - num2
+	// } else if (mathSymbol === '*') {
+	// 	solution = num1 * num2
+	// } else if (mathSymbol === '/') {
+	// 	solution = num1 / num2
+	// } else if (mathSymbol === '√') {
+	// 	solution = Math.sqrt(num1)
+	// } else {
+	// 	solution = "Incorrect Symbol"
+	// }
+	// console.log(solution)
 
-	console.log("solution", solution)
+	///SOLUTION 2 -------------
+	// let solution;
+	// switch(mathSymbol) {
+	// 	case '+':
+	// 		solution = num1 + num2
+	// 		break
+	// 	case '-':
+	// 		solution = num1 - num2
+	// 		break
+	// 	case '*':
+	// 		solution = num1 + num2
+	// 		break
+	// 	case '/':
+	// 		solution = num1 / num2
+	// 		break
+	// 	case '√':
+	// 		solution = Math.sqrt(num1)
+	// 		break
+	// 	default:
+	// 		solution = "Incorect Symbol"
+	// 		break
+	// }
+	// console.log(solution)
+
+	///SOLUTION 3 -------------
+	
 
 });
