@@ -36,31 +36,27 @@ reader.question("What would you like to calculate?", function(input){
 	// }
 	// console.log(solution)
 
-	///SOLUTION 2 -------------
-	// let solution;
-	// switch(mathSymbol) {
-	// 	case '+':
-	// 		solution = num1 + num2
-	// 		break
-	// 	case '-':
-	// 		solution = num1 - num2
-	// 		break
-	// 	case '*':
-	// 		solution = num1 + num2
-	// 		break
-	// 	case '/':
-	// 		solution = num1 / num2
-	// 		break
-	// 	case '√':
-	// 		solution = Math.sqrt(num1)
-	// 		break
-	// 	default:
-	// 		solution = "Incorect Symbol"
-	// 		break
-	// }
-	// console.log(solution)
-
-	///SOLUTION 3 -------------
-	
-
+	// /SOLUTION 2 -------------
+	let solution;
+	switch(mathSymbol) {
+		case '+':
+			solution = num1 + num2
+			break
+		case '-':
+			solution = num1 - num2
+			break
+		case '*':
+			solution = num1 + num2
+			break
+		case '/':
+			solution = num1 / num2
+			break
+		case '√':
+			solution = Math.sqrt(num1)
+			break
+		default:
+			solution = "Incorrect Symbol"
+			break
+	}
+	console.log(solution)
 });
