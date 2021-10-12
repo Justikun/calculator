@@ -29,7 +29,7 @@ reader.question("What would you like to calculate?", function(input){
 	} else if (mathSymbol === '/') {
 		solution = num1 / num2
 	} else if (mathSymbol === '√') {
-		solution = Math.sqrt(num1, num2)
+		solution = Math.sqrt(num1)
 	}
 
 	console.log("solution", solution)
